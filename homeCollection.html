@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adona Diagnostic Centre</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/Custom.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <!--NavBarStart-->
+    <section class="top-header">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-4 left-top">
+                    <a href="" class="text-white">
+                        <i class="fas fa-phone mr-3 text-white p-2"></i>+91-8414808007
+                    </a>
+                    <a href="" class="text-white">
+                        <i class="fas fa-phone mr-3 text-white p-2"></i>+91-8119061470
+                    </a>
+                </div>
+                <div class="col-4 right-top">
+                    <a href="" class="text-white">
+                        <i class="fas fa-envelope mr-3 text-white p-2"></i>adonadiagnostics@gmail.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <header class="sticky-top shadow-sm bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img style="height: 40px;"
+                            src="./images/adonaLogo.png"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="service.html">Service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Gallery
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="photogallery.html">Photos</a></li>
+                                    <li><a class="dropdown-item" href="videogallery.html">Videos</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blogs.html">Blogs</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" action="homeCollection.html">
+                            <a href="homeCollection.html">
+                                <button class="btn btn-secondary" type="submit">
+                                    Book Home Collection
+                                </button>
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--NavBarEnd-->
+    <!--Content Section starts here-->
+    <div class="container text-center py-4">
+        <div class="lc-block card border-0 text-center rounded p-4 p-lg-6">
+            <div class="row card-body">
+                <div class="col-xl-11 col-xxl-10 mx-auto">
+                    <div class="lc-block mb-5">
+                        <h4 editable="inline" class="text-color-agoda-primary">Home Sample Collection</h4>
+                        <h2 editable="inline" class="fw-bold text-color-agoda-primary">Convenience at <span class="text-color-agoda-tertiary">Your Doorstep</span> today</h2>
+                        <p class="text-muted" editable="inline">At Adona Diagnostic Centre, we understand 
+                            that your health is your top priority, and we are committed to making healthcare 
+                            services accessible and convenient for you. Our Home Sample Collection service 
+                            brings the diagnostics to your doorstep, saving you time and effort while 
+                            ensuring you receive the same level of accuracy and reliability you expect from 
+                            our certified and accredited labs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Steps Starts here-->
+    <div class="container py-5 timeline position-relative">
+        <h3 style="background-color: white;"
+            class="mb-3 text-color-agoda-primary position-relative text-lg-start text-center mb-5">How Does it Work?
+        </h3>
+        <style>
+            .timeline:before {
+                content: "";
+                background-color: #4CB050;
+                width: 5px;
+                height: 95%;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            .timeline-item:nth-child(even) .timeline-content {
+                float: right;
+                padding: 40px 30px 10px 30px;
+            }
+
+            .timeline-item:nth-child(even) .timeline-content .date {
+                right: auto;
+                left: 0;
+            }
+
+            .timeline-item:nth-child(even) .timeline-content::after {
+                content: "";
+                position: absolute;
+                border-style: solid;
+                width: 0;
+                height: 0;
+                top: 30px;
+                left: -15px;
+                border-width: 10px 15px 10px 0;
+                border-color: transparent var(--bs-light) transparent transparent;
+            }
+
+            .timeline-item::after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+
+            .timeline-content {
+                position: relative;
+                width: 45%;
+                padding: 10px 30px;
+                border-radius: 4px;
+                background: var(--bs-light);
+            }
+
+            .timeline-content::after {
+                content: "";
+                position: absolute;
+                border-style: solid;
+                width: 0;
+                height: 0;
+                top: 30px;
+                right: -15px;
+                border-width: 10px 0 10px 15px;
+                border-color: transparent transparent transparent var(--bs-light);
+            }
+
+            .timeline-img {
+                width: 30px;
+                height: 30px;
+                background-color: #4CB050;
+                border-radius: 50%;
+                position: absolute;
+                left: 50%;
+                margin-top: 25px;
+                margin-left: -15px;
+            }
+
+            @media screen and (max-width: 768px) {
+                .timeline::before {
+                    left: 50px;
+                }
+
+                .timeline .timeline-img {
+                    left: 50px;
+                }
+
+                .timeline .timeline-content {
+                    max-width: 100%;
+                    width: auto;
+                    margin-left: 70px;
+                }
+
+                .timeline .timeline-item:nth-child(even) .timeline-content {
+                    float: none;
+                }
+
+                .timeline .timeline-item:nth-child(odd) .timeline-content::after {
+                    content: "";
+                    position: absolute;
+                    border-style: solid;
+                    width: 0;
+                    height: 0;
+                    top: 30px;
+                    left: -15px;
+                    border-width: 10px 15px 10px 0;
+                    border-color: transparent #f5f5f5 transparent transparent;
+                }
+            }
+        </style>
+        <div class="timeline-item w-100 mb-1 py-4 text-dark lc-block">
+            <div class="timeline-img"></div>
+            <div class="timeline-content">
+                <p editable="inline" class="lead">1st Step</p>
+                <h4 editable="inline" class="text-color-agoda-primary rfs-12">Schedule an Appointment</h4>
+                <div editable="rich">
+                    <p>Call us or use our online booking platform to schedule an appointment for home sample
+                        collection. Let us know your preferred date and time, and we will be there as per your
+                        convenience.</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-item w-100 mb-1 py-4 text-dark lc-block">
+            <div class="timeline-img"></div>
+            <div class="timeline-content">
+                <p editable="inline" class="lead">2nd Step</p>
+                <h4 editable="inline" class="text-color-agoda-primary rfs-12">Skilled Phlebotomists</h4>
+                <div editable="rich">
+                    <p>Our trained phlebotomists will visit your home at the scheduled time. They will explain
+                        the procedure to you and ensure that you are comfortable throughout the sample
+                        collection process.</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-item w-100 mb-1 py-4 text-dark lc-block">
+            <div class="timeline-img"></div>
+            <div class="timeline-content">
+                <p editable="inline" class="lead">3rd Step</p>
+                <h4 editable="inline" class="text-color-agoda-primary rfs-12">Collection Process</h4>
+                <div editable="rich">
+                    <p>Our team will collect the necessary samples with the utmost care, following strict
+                        hygiene protocols. You can trust us to maintain the highest standards of safety
+                        and accuracy.</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-item w-100 mb-1 py-4 text-dark lc-block">
+            <div class="timeline-img"></div>
+            <div class="timeline-content">
+                <p editable="inline" class="lead">4th Step</p>
+                <h4 editable="inline" class="text-color-agoda-primary rfs-12">Swift Transportation</h4>
+                <div editable="rich">
+                    <p>Once the samples are collected, they will be safely transported to our state-of-the-art
+                        laboratory for analysis. Our efficient processes ensure that you receive the test
+                        reports in the shortest possible time.</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-item w-100 mb-1 py-4 text-dark lc-block">
+            <div class="timeline-img"></div>
+            <div class="timeline-content">
+                <p editable="inline" class="lead">5th Step</p>
+                <h4 editable="inline" class="text-color-agoda-primary rfs-12">Expert Consultation</h4>
+                <div editable="rich">
+                    <p>After the analysis is complete, you will receive your test reports within the
+                        specified time frame. If you have any questions or require further guidance,
+                        our team is available for a free report consultation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Steps ends here-->
+    <div class="container text-center py-lg-6 py-4">
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-10 mb-4 d-flex justify-content-center flex-wrap">
+                <div class="lc-block text-color-agoda-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="5em" viewBox="0 0 512 512">
+                        <style>
+                            svg {
+                                fill: #030d6e
+                            }
+                        </style>
+                        <path
+                            d="M228.3 469.1L47.6 300.4c-4.2-3.9-8.2-8.1-11.9-12.4h87c22.6 0 43-13.6 51.7-34.5l10.5-25.2 49.3 109.5c3.8 8.5 12.1 14 21.4 14.1s17.8-5 22-13.3L320 253.7l1.7 3.4c9.5 19 28.9 31 50.1 31H476.3c-3.7 4.3-7.7 8.5-11.9 12.4L283.7 469.1c-7.5 7-17.4 10.9-27.7 10.9s-20.2-3.9-27.7-10.9zM503.7 240h-132c-3 0-5.8-1.7-7.2-4.4l-23.2-46.3c-4.1-8.1-12.4-13.3-21.5-13.3s-17.4 5.1-21.5 13.3l-41.4 82.8L205.9 158.2c-3.9-8.7-12.7-14.3-22.2-14.1s-18.1 5.9-21.8 14.8l-31.8 76.3c-1.2 3-4.2 4.9-7.4 4.9H16c-2.6 0-5 .4-7.3 1.1C3 225.2 0 208.2 0 190.9v-5.8c0-69.9 50.5-129.5 119.4-141C165 36.5 211.4 51.4 244 84l12 12 12-12c32.6-32.6 79-47.5 124.6-39.9C461.5 55.6 512 115.2 512 185.1v5.8c0 16.9-2.8 33.5-8.3 49.1z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-8 col-md-10">
+                <div class="lc-block mb-4">
+                    <div editable="rich">
+                        <h2 class="rfs-25 text-color-agoda-primary">Schedule Your Home Sample Collection Today</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-9 col-sm-10 col-xl-6">
+                <div class="lc-block">
+                    <div editable="rich">
+                        <p class="text-muted">At Adona Diagnostic Centre, we strive to provide seamless and
+                            patient-centric healthcare services. Take advantage of our Home Sample Collection
+                            service and experience the convenience of healthcare delivered right to your
+                            doorstep. Book your appointment now and take a step towards prioritizing your
+                            health without any hassle. Your well-being is our commitment!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Content Section Ends Here-->
+    <section class="h-auto bg-light">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col">
+                    <div class="card card-registration my-4">
+                        <div class="row g-0">
+                            <div class="col-xl-6 d-none d-xl-block">
+                                <img src="https://images.pexels.com/photos/3786215/pexels-photo-3786215.jpeg?cs=srgb&dl=pexels-anna-shvets-3786215.jpg&fm=jpg"
+                                    alt="Sample photo" class="img-fluid" />
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="card-body p-md-5 text-black">
+                                    <h3 class="mb-5 text-color-agoda-primary">Book A Home Collection</h3>
+
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4">
+                                            <div class="form-outline">
+                                                <label class="form-label" for="form3Example1m">First name</label>
+                                                <input type="text" id="form3Example1m"
+                                                    class="form-control form-control-lg" />
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-4">
+                                            <div class="form-outline">
+                                                <label class="form-label" for="form3Example1n">Last name</label>
+                                                <input type="text" id="form3Example1n"
+                                                    class="form-control form-control-lg" />
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4">
+                                            <div class="form-outline">
+                                                <label class="form-label" for="form3Example1m1">Father's name</label>
+                                                <input type="text" id="form3Example1m1"
+                                                    class="form-control form-control-lg" />
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-4">
+                                            <div class="form-outline">
+                                                <label class="form-label" for="form3Example1n1">Mother's name</label>
+                                                <input type="text" id="form3Example1n1"
+                                                    class="form-control form-control-lg" />
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="form3Example8">Phone Number</label>
+                                        <input type="tel" id="form3Example8" class="form-control form-control-lg" />
+
+                                    </div>
+
+                                    <div class="d-md-flex justify-content-start align-items-center mb-4 py-2">
+
+                                        <h6 class="mb-0 me-4">Gender: </h6>
+
+                                        <div class="form-check form-check-inline mb-0 me-4">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                id="femaleGender" value="option1" />
+                                            <label class="form-check-label" for="femaleGender">Female</label>
+                                        </div>
+
+                                        <div class="form-check form-check-inline mb-0 me-4">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                id="maleGender" value="option2" />
+                                            <label class="form-check-label" for="maleGender">Male</label>
+                                        </div>
+
+                                        <div class="form-check form-check-inline mb-0">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                id="otherGender" value="option3" />
+                                            <label class="form-check-label" for="otherGender">Other</label>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="form3Example9">Preferred Date</label>
+                                        <input type="date" id="form3Example9" class="form-control form-control-lg" />
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="form3Example9">Preferred time </label>
+                                        <input type="time" id="form3Example9" class="form-control form-control-lg" />
+                                    </div>
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="form3Example99">Address</label>
+                                        <input type="address" id="form3Example99"
+                                            class="form-control form-control-lg" />
+                                    </div>
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="form3Example90">Pincode</label>
+                                        <input type="number" id="form3Example90" class="form-control form-control-lg" />
+
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="form3Example97">Email ID</label>
+                                        <input type="text" id="form3Example97" class="form-control form-control-lg" />
+
+                                    </div>
+
+                                    <div class="d-flex justify-content-end pt-3">
+                                        <button type="button" class="btn btn-primary btn-lg">Reset all</button>
+                                        <button type="button" class="btn btn-secondary btn-lg ms-2">Submit form</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="text-center text-lg-start text-white"
+        style="background-image: linear-gradient(135deg, #c0e4ff, #030d6e)">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <a href="/" class="mb-4">
+                            <img class="w-50 mb-3" src="./images/adonaLogo.png" alt="" />
+                        </a>
+                        <p>
+                            Adona Diagnostic Centre is a leading medical diagnostic
+                            laboratory situated in the heart of Khumulwng, West Tripura.
+                            Established with a strong commitment to providing early and
+                            accurate reports to patients at affordable costs, the center has
+                            emerged as a trusted name in the healthcare industry. Their
+                            dedicated team of professionals with profound knowledge in their
+                            respective fields ensures that patients receive top-notch
+                            service and care.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold fs-5">
+                            Quick Links
+                        </h6>
+                        <p>
+                            <a href="/" class="text-white">About Us</a>
+                        </p>
+                        <p>
+                            <a href="/" class="text-white">Our Treatments</a>
+                        </p>
+                        <p>
+                            <a href="/" class="text-white">Explore Gallery</a>
+                        </p>
+                        <p>
+                            <a href="/" class="text-white">Testimonials</a>
+                        </p>
+                        <p>
+                            <a href="/" class="text-white">Latest Blog</a>
+                        </p>
+                        <p>
+                            <a href="/" class="text-white">Contcat Us</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold fs-5">
+                            Our Services
+                        </h6>
+                        <p>
+                            <a href="/" class="text-white">Radiofrequency surgery</a>
+                        </p>
+                        <p>
+                            <a href="/" class="text-white">Acne Scar Treatment</a>
+                        </p>
+                        <p>
+                            <a href="/" class="text-white">Ear&Nose Piercing</a>
+                        </p>
+                        <p>
+                            <a href="/" class="text-white">Acne Laser Treatment</a>
+                        </p>
+                        <p>
+                            <a href="/" class="text-white">electrocautery surgery</a>
+                        </p>
+                        <p>
+                            <a href="/" class="text-white">IPL-Skin rejuvenation</a>
+                        </p>
+                        <p>
+                            <a href="/" class="text-white">Derma roller,Nail Surgery</a>
+                        </p>
+                        <p>
+                            <a href="/" class="text-white">Botox Filler</a>
+                        </p>
+                    </div>
+
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold fs-5">Contact</h6>
+                        <p>
+                            <i class="fas fa-home mr-3"></i> Kritti Basi Para, Opposite SASA
+                            School, Khumulwng, West Tripura-799045
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope mr-3"></i> adonadiagnostics@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone mr-3"></i> +91 841 480 007</p>
+                        <p><i class="fas fa-phone mr-3"></i> +91 690 955 6166</p>
+                        <p><i class="fas fa-phone mr-3"></i> +91 841 480 007</p>
+                        <p>
+                            <i class="fa fa-whatsapp" aria-hidden="true"></i> +91 690 955
+                            6166
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+
+            <hr class="my-3" />
+
+            <!-- Section: Copyright -->
+            <section class="p-3 pt-0">
+                <div class="row d-flex align-items-center">
+                    <!-- Grid column -->
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                        <!-- Copyright -->
+                        <div class="p-3">
+                            © 2022 - 2023. All rights reserved.
+                            <a class="text-white" href="/">Adona Diagnostic Centre</a>
+                        </div>
+                        <!-- Copyright -->
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                        <!-- Facebook -->
+                        <a class="btn btn-secondary btn-floating m-1 rounded-circle" class="text-white" role="button"><i
+                                class="fab fa-facebook-f"></i></a>
+
+                        <!-- Twitter -->
+                        <a class="btn btn-secondary btn-floating m-1 rounded-circle" class="text-white" role="button"><i
+                                class="fab fa-twitter"></i></a>
+
+                        <!-- Google -->
+                        <a class="btn btn-secondary btn-floating m-1 rounded-circle" class="text-white" role="button"><i
+                                class="fab fa-google"></i></a>
+
+                        <!-- Instagram -->
+                        <a class="btn btn-secondary btn-floating m-1 rounded-circle" class="text-white" role="button"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+            </section>
+            <!-- Section: Copyright -->
+        </div>
+        <!-- Grid container -->
+    </footer>
+    <!-- Footer Ends Here-->
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/fdccd0ee1c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

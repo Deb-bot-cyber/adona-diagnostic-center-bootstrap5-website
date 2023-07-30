@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  background: #ffffff;
+}
+.Top-Packages {
+  background: #f6f6f6;
+}
+.image-bg-color {
+  background: #dbf5f9;
+  position: relative;
+}
+.image-bg-color img {
+  position: absolute;
+  top: 16px;
+  text-align: center;
+  right: -14px;
+}
+.container-services {
+  background: #f6f6f6;
+}
